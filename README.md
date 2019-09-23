@@ -2,11 +2,12 @@
 
 Neural-Code-Search presents an evaluation dataset consisting of natural language query and code snippet pairs, with the hope that future work in this area can use this dataset as a common benchmark. We also provide the results of two code search models ([NCS](https://dl.acm.org/citation.cfm?id=3211353), [UNIF](https://arxiv.org/abs/1905.03813)) from recent work. 
 
+The full paper is available at [Neural Code Search Evaluation Dataset](https://arxiv.org/abs/1908.09804).
+
 ## Dataset contents
 
 All the dataset contents are in the `data` directory. 
 
----
 ### GitHub Repositories
 The most popular Android repositories on GitHub (ranked by the number of stars) is used to create the search corpus. For each repository that we indexed, we provide the link, specific to the commit that was used. In total, there are 24,549 repositories. This is located in `data/android_repositories_download_links.txt`.
 
@@ -98,7 +99,6 @@ No.,StackOverflow ID,NCS FRank,NCS_postrank FRank, UNIF_android FRank,UNIF_stack
 ```
 
 ## Full documentation
-Check out the full paper at [Neural Code Search Evaluation Dataset](https://arxiv.org/abs/1908.09804).
 
 See the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.
 
