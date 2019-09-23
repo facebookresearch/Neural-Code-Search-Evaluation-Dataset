@@ -3,7 +3,7 @@ There has been an increase of interest in code search using natural language. As
 
 
 ## Full documentation
-Check out the full paper at https://arxiv.org/abs/1908.09804.
+Check out the full paper at [Neural Code Search Evaluation Dataset](https://arxiv.org/abs/1908.09804).
 
 See the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.
 
