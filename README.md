@@ -82,7 +82,7 @@ Example:
 We provide the evaluation results for two code search models of our creation, each with two variations:
 * **NCS:** NCS: an unsupervised model which uses word embedding derived directly from the [search corpus](https://dl.acm.org/citation.cfm?id=3211353).
 * **NCS<sub>postrank</sub>:**  an extension of the base NCS model that performs a post-pass ranking, as explained in [here](https://dl.acm.org/citation.cfm?id=3211353).
-* **UNIFandroid**, **UNIF<sub>stackoverflow</sub>**: a supervised extension of the NCS model that uses a bag-of-words-based neural network with attention. The supervision is learned using GitHub-Android-Train and StackOverflow-AndroidTrain datasets, respectively, as described here [UNIF](https://arxiv.org/abs/1905.03813).
+* **UNIF<sub>android</sub>**, **UNIF<sub>stackoverflow</sub>**: a supervised extension of the NCS model that uses a bag-of-words-based neural network with attention. The supervision is learned using GitHub-Android-Train and StackOverflow-AndroidTrain datasets, respectively, as described here [UNIF](https://arxiv.org/abs/1905.03813).
 
 We provide the rank of the first correct answer (FRank) for each question in our evaluation dataset. The score sheet is
 saved in a comma-delimited csv file in `data/score_sheet.csv`.
