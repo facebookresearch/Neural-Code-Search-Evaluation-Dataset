@@ -52,7 +52,7 @@ The evaluation dataset is composed of 287 Stack Overflow question and answer pai
 * **question_url:** URL of the Stack Overflow post.
 * **answer:** Code snippet answer to the question.
 
-This is located in `data/287_android_questions.json`.
+The questions were collected from a data dump publicly relased by Stack Exchange [here](https://archive.org/details/stackexchange). This is located in `data/287_android_questions.json`.
 
 Example:
 ```
@@ -97,10 +97,6 @@ No.,StackOverflow ID,NCS FRank,NCS_postrank FRank, UNIF_android FRank,UNIF_stack
 5,3423754,5,1,22,10
 6,1397361,NF,3,2,1
 ```
-
-## Full documentation
-
-See the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.
 
 ## License
 Neural-Code-Search is CC-BY-NC 4.0 (Attr Non-Commercial Inter.) (e.g., FAIR) licensed, as found in the LICENSE file.
