@@ -1,6 +1,6 @@
-# Neural-Code-Search
+# Neural-Code-Search-Evaluation-Dataset
 
-Neural-Code-Search presents an evaluation dataset consisting of natural language query and code snippet pairs, with the hope that future work in this area can use this dataset as a common benchmark. We also provide the results of two code search models ([NCS](https://dl.acm.org/citation.cfm?id=3211353), [UNIF](https://arxiv.org/abs/1905.03813)) from recent work. 
+Neural-Code-Search-Evaluation-Dataset presents an evaluation dataset consisting of natural language query and code snippet pairs, with the hope that future work in this area can use this dataset as a common benchmark. We also provide the results of two code search models ([NCS](https://dl.acm.org/citation.cfm?id=3211353), [UNIF](https://arxiv.org/abs/1905.03813)) from recent work. 
 
 The full paper is available at [Neural Code Search Evaluation Dataset](https://arxiv.org/abs/1908.09804).
 
@@ -99,4 +99,4 @@ No.,StackOverflow ID,NCS FRank,NCS_postrank FRank, UNIF_android FRank,UNIF_stack
 ```
 
 ## License
-Neural-Code-Search is CC-BY-NC 4.0 (Attr Non-Commercial Inter.) (e.g., FAIR) licensed, as found in the LICENSE file.
+Neural-Code-Search-Evaluation-Dataset is CC-BY-NC 4.0 (Attr Non-Commercial Inter.) (e.g., FAIR) licensed, as found in the LICENSE file.
