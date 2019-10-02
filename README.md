@@ -9,7 +9,7 @@ The full paper is available at [Neural Code Search Evaluation Dataset](https://a
 All the dataset contents are in the `data` directory. 
 
 ### GitHub Repositories
-The most popular Android repositories on GitHub (ranked by the number of stars) is used to create the search corpus. For each repository that we indexed, we provide the link, specific to the commit that was used. In total, there are 24,549 repositories. This is located in `data/android_repositories_download_links.txt`.
+The most popular Android repositories on GitHub (ranked by the number of stars) is used to create the search corpus. For each repository that we indexed, we provide the link, specific to the commit that was used. In total, there are 24,549 repositories. This is located in `data/android_repositories_download_links.txt`. We also provide a Python script that downloads these GitHub repositories in `download.py`. 
 
 Example: 
 
